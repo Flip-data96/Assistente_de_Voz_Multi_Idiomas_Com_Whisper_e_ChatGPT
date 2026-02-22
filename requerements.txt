@@ -1,0 +1,37 @@
+# ==========================================================
+# Voice AI Assistant - Dependências do Projeto
+# ==========================================================
+
+# Speech-to-Text (Whisper)
+openai-whisper
+
+# OpenAI API
+openai>=1.0.0
+
+# Google Gemini API
+google-generativeai
+
+# Text-to-Speech
+gTTS
+
+# Manipulação de áudio (dependência do Whisper)
+ffmpeg-python
+
+# Utilitários
+python-dotenv
+```
+
+---
+
+# 🔎 Observações Importantes
+
+### 1️⃣ Sobre o Whisper
+
+O pacote `openai-whisper` já instala dependências como:
+
+* torch
+* numpy
+* tqdm
+
+⚠️ **Importante:**
+Para rodar fora do Colab, o sistema precisa ter o **FFmpeg instalado no sistema operacional**
